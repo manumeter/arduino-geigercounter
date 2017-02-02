@@ -22,3 +22,10 @@ Used *NGMC-V1* (Radiation Detector DIY Kit) with *M4011* tube.
 -   Own Background: 0,2 Pulses/s
 -   Length: 88mm
 -   Diameter: 10mm
+
+# Calculation
+
+Script prints counts per 10 Minutes (x).
+
+    (x-120)/1.5      = nSv/h
+    (x-120)/1.5*8.76 = μSv/y
